@@ -1,0 +1,19 @@
+<%for(let i=0;i<orders.length;i++){%>
+    <tr>
+        <td><%= i+1 %></td>
+        <td><%= orders[i].name %></td>
+        <td><%= orders[i].contact %></td>
+        <td><%= orders[i].address %></td>
+        <td><%= orders[i].dressCode %></td>
+        <td><%= orders[i].totalAmount %></td>
+        <td>
+            <a href="/update-order?id=<%=orders[i]._id%>" class="btn border-shadow update">
+                <span class="text-gradient"><i class="fas fa-pencil-alt"></i></span>
+            </a>
+            <a href="#" class="btn border-shadow delete" data-id="<%=orders[i]._id%>">
+                <span class="text-gradient"><i class="fas fa-trash"></i></span>
+            </a>
+        </td>
+    </tr>
+
+    <%}%>
