@@ -1,0 +1,25 @@
+{
+  "name": "crud-app",
+  "version": "1.0.0",
+  "description": "<a href=\"https://pokedexbysadika.netlify.app/\">Visit here</a> The Order Management System is a  web application that streamlines business order processing. Built using HTML, CSS, EJS, Express, and MongoDB, this system employs the Model-View-Controller (MVC) architecture to deliver an organized and efficient platform for order management.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node  server.js",
+    "dev": "nodemon  server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "mongoose": "^6.11.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.10"
+  },
+  "keywords": []
+}
